@@ -1,0 +1,1 @@
+__pycache__/\n*.py[cod]\n*.log\n.env\n.venv/\n.venv\n.dist/\ndist/\npoetry.lock\n.pytest_cache/\n.mypy_cache/\n.ruff_cache/\n.idea/\n.vscode/\n
