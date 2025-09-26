@@ -1,1 +1,1 @@
-# GameTest_Py\n\nA Python project managed by Poetry.\n
+# GameTest_Py\n\nA Python project managed by Poetry.\n\n## 录制与回放小工具\n\n提供命令 `game-rec` 用于录制与回放键鼠操作。\n\n安装/更新依赖：\n\n```bash\npoetry install\n```\n\n录制（按下并释放 ESC 结束录制）：\n\n```bash\npoetry run game-rec record recordings/sample.json\n```\n\n回放：\n\n```bash\npoetry run game-rec replay recordings/sample.json\n```\n\n注意：\n- 录制内容包含键盘与鼠标事件，并记录相对时间；回放将按时间重放。\n- Windows 下可能需要以管理员方式运行以获得全局键鼠权限。\n

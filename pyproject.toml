@@ -6,9 +6,17 @@ license = 'MIT'
 authors = ['Your Name <you@example.com>']
 readme = 'README.md'
 packages = [{ include = 'game_test_py', from = 'src' }]
+[tool.poetry.scripts]
+game-rec = "game_test_py.cli:main"
+rec-desktop = "game_test_py.desktop.app:run"
 
 [tool.poetry.dependencies]
 python = '>=3.12,<3.14'
+pynput = "^1.8.1"
+fastapi = "^0.117.1"
+uvicorn = {extras = ["standard"], version = "^0.37.0"}
+pywin32 = "^311"
+pyside6 = "^6.9.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = '^8.3.3'

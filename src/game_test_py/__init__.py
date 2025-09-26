@@ -1,1 +1,1 @@
-﻿__all__ = ["hello"]
+__all__ = ["hello"]
